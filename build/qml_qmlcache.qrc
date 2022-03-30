@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/">
+        <file alias="font/lotteDreamBold.ttf">../font/lotteDreamBold.ttf</file>
+        <file alias="font/lotteDreamLight.ttf">../font/lotteDreamLight.ttf</file>
+        <file alias="image/background.png">../image/background.png</file>
+        <file alias="image/dispense.png">../image/dispense.png</file>
+        <file alias="image/make.png">../image/make.png</file>
+        <file alias="image/pickup.png">../image/pickup.png</file>
+        <file alias="image/preoperating.png">../image/preoperating.png</file>
+        <file alias="image/wait_dispense.png">../image/wait_dispense.png</file>
+        <file alias="image/wait.png">../image/wait.png</file>
+        <file alias="font/SB_Aggro_M.ttf">../font/SB_Aggro_M.ttf</file>
+        <file alias="image/display_background_kenya.png">../image/display_background_kenya.png</file>
+        <file alias="image/display_background_ready.png">../image/display_background_ready.png</file>
+        <file alias="image/display_dispensing.png">../image/display_dispensing.png</file>
+        <file alias="image/display_making.png">../image/display_making.png</file>
+        <file alias="image/display_pickup_notice.png">../image/display_pickup_notice.png</file>
+        <file alias="image/display_wait.png">../image/display_wait.png</file>
+    </qresource>
+</RCC>

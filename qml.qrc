@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>font/lotteDreamBold.ttf</file>
+        <file>font/lotteDreamLight.ttf</file>
+        <file>LeftItem.qml</file>
+        <file>OneView.qml</file>
+        <file>image/background.png</file>
+        <file>image/dispense.png</file>
+        <file>image/make.png</file>
+        <file>image/pickup.png</file>
+        <file>image/preoperating.png</file>
+        <file>image/wait_dispense.png</file>
+        <file>image/wait.png</file>
+        <file>font/SB_Aggro_M.ttf</file>
+        <file>image/display_background_kenya.png</file>
+        <file>image/display_background_ready.png</file>
+        <file>image/display_dispensing.png</file>
+        <file>image/display_making.png</file>
+        <file>image/display_pickup_notice.png</file>
+        <file>image/display_wait.png</file>
+        <file>RightItem.qml</file>
+    </qresource>
+</RCC>
