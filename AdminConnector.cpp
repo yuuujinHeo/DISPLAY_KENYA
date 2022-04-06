@@ -130,6 +130,7 @@ void AdminConnector::onRequestReply(QtHttpRequest *request, QtHttpReply *reply){
         tempOrder.transaction_number = temp["TRANSACTION_NUMBER"].toString();
         tempOrder.menu = temp["MENU"].toString();
         tempOrder.status_beverage = temp["STATUS"].toInt();
+        qDebug() << i << tempOrder.status_beverage;
         OrderList.push_back(tempOrder);
     }
 
@@ -219,6 +220,7 @@ QString AdminConnector::getMenu(int num){
 
 int AdminConnector::getStatus(int num){
     if(num < OrderList.size()){
+        qDebug() << OrderList[num].status_beverage;
         return OrderList[num].status_beverage;
     }
     return 0;

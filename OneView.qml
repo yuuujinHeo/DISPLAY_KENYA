@@ -33,7 +33,7 @@ Window {
     Image{
         id: imageBackground
         anchors.fill: parent
-        source: "image/display_background_kenya.png"
+        source: "image/display_kenya.png"
     }
 
     // Waiting Order & Processing Order =================================================
@@ -114,102 +114,102 @@ Window {
 
     LeftItem {
         id: item_1
-        x: 20
-        y: 1687
-        width: 1383
-        height: 89
+        x: 116
+        y: 2033
+        width: 1208
+        height: 71
     }
 
 
     LeftItem {
         id: item_2
-        x: 20
-        y: 1783
-        width: 1383
-        height: 89
+        x: 116
+        y: 2107
+        width: 1208
+        height: 71
     }
 
 
     LeftItem {
         id: item_3
-        x: 20
-        y: 1879
-        width: 1383
-        height: 89
+        x: 116
+        y: 2181
+        width: 1208
+        height: 71
     }
 
 
     LeftItem {
         id: item_4
-        x: 20
-        y: 1975
-        width: 1383
-        height: 89
+        x: 116
+        y: 2255
+        width: 1208
+        height: 71
     }
 
 
     LeftItem {
         id: item_5
-        x: 20
-        y: 2072
-        width: 1383
-        height: 89
+        x: 116
+        y: 2329
+        width: 1208
+        height: 71
     }
 
 
     LeftItem {
         id: item_6
-        x: 20
-        y: 2168
-        width: 1383
-        height: 89
+        x: 116
+        y: 2404
+        width: 1208
+        height: 71
     }
 
 
     RightItem{
         id: item_1_1
-        x: 104
-        y: 2593
-        width: 548
-        height: 185
+        x: 116
+        y: 2914
+        width: 599
+        height: 154
     }
     RightItem{
         id: item_1_2
-        x: 104
-        y: 2789
-        width: 548
-        height: 185
+        x: 116
+        y: 3070
+        width: 599
+        height: 154
     }
     RightItem{
         id: item_1_3
-        x: 104
-        y: 2981
-        width: 548
-        height: 185
+        x: 116
+        y: 3226
+        width: 599
+        height: 154
     }
 
     RightItem {
         id: item_2_1
-        x: 756
-        y: 2593
-        width: 548
-        height: 185
+        x: 725
+        y: 2914
+        width: 599
+        height: 154
     }
 
     RightItem {
         id: item_2_2
-        x: 756
-        y: 2789
-        width: 548
-        height: 185
+        x: 725
+        y: 3070
+        width: 599
+        height: 154
     }
 
     RightItem {
         id: item_2_3
-        x: 756
-        y: 2981
-        width: 548
-        height: 185
+        x: 725
+        y: 3226
+        width: 599
+        height: 154
     }
 
     Rectangle {

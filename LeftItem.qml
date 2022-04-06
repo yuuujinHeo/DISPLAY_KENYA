@@ -7,18 +7,20 @@ Item {
     property int mImageToggle: 0
 
     id: leftItemOrder
-    width: 1383
-    height: 89
+    width: 1208
+    height: 71
 
 
 
     Text {
         x: 0
-        y: 0
-        width: 338
-        height: 89
+        width: 303
         color: "#000000"
-        text: __pin_text
+        text: "00001"
+        anchors.top: parent.top
+        anchors.topMargin: 0
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 0
         font.family: fontMid.name
         verticalAlignment: Text.AlignVCenter
         horizontalAlignment: Text.AlignHCenter
@@ -28,13 +30,14 @@ Item {
 
 
     Text {
-        y: 0
-        width: 564
-        height: 89
+        x: 309
+        width: 588
         color: "#000000"
         text: __menu_text
-        anchors.left: parent.left
-        anchors.leftMargin: 344
+        anchors.top: parent.top
+        anchors.topMargin: 0
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 0
         lineHeight: 0.9
         font.family: fontMid.name
         verticalAlignment: Text.AlignVCenter
@@ -47,11 +50,11 @@ Item {
 
     Image {
         id: image_status
-        x: 908
-        y: -14
-        width: 475
-        height: 128
-        fillMode: Image.PreserveAspectFit
+        x: 903
+        y: 0
+        width: 305
+        height: 71
+        fillMode: Image.Stretch
         visible: true
         source: "image/display_wait.png"
     }
@@ -83,10 +86,12 @@ Item {
         }
     }
 
+
 }
 
 /*##^##
 Designer {
-    D{i:2;anchors_x:467}
+    D{i:1;anchors_height:71;anchors_y:0}D{i:2;anchors_height:89;anchors_x:467;anchors_y:0}
+D{i:3;anchors_height:128;anchors_y:"-14"}
 }
 ##^##*/
